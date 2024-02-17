@@ -54,30 +54,6 @@ pubspec.lock
 
 ~/.android/build-cache/
 
-.lock
-
-.bin
-
-/build/.json
-
-/build/.html
-
-/build/.xml
-
-/build/.properties
-
-/build//zip-cache/
-
-.log
-
-.txt
-
-.rawproto
-
-!.ap_
-
-!.apk
-
 .idea
 
 .classpath
@@ -85,8 +61,6 @@ pubspec.lock
 .project
 
 .settings
-
-.idea
 
 android-mpay-new.iml
 
@@ -109,8 +83,6 @@ mpay.iml
 *.o
 
 *.so
-
-/build/*
 
 # Packages #
 
@@ -163,31 +135,22 @@ ehthumbs.db
 
 Thumbs.db
 
-build/*
 
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-pubspec.lock
-.dart_tool
 /.dart_tool
 .dart_tool/*
 ios/Flutter/flutter_export_environment.sh
 ios/Flutter/Generated.xcconfig
 
 # Miscellaneous
-*.class
-*.log
+
 *.pyc
 *.swp
-.DS_Store
 .atom/
 .buildlog/
 .history
 .svn/
 
 # IntelliJ related
-*.iml
 *.ipr
 *.iws
 .idea/
@@ -200,8 +163,6 @@ ios/Flutter/Generated.xcconfig
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
-.flutter-plugins
-.packages
 .pub-cache/
 .pub/
 build/
