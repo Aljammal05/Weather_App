@@ -1,4 +1,4 @@
-import 'package:weather_app/data/weather/api_keys.dart';
+import 'package:weather_app/data/api_keys.dart';
 import 'package:weather_app/domain/entities/temperature_unit_enum.dart';
 
 String weatherApiURL({

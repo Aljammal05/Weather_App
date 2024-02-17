@@ -1,4 +1,4 @@
-import 'package:weather_app/data/weather/model/weather_api_response.dart';
+import 'package:weather_app/data/weather/models/weather_api_response.dart';
 
 class WeatherListApiResponse {
   String? cod;
