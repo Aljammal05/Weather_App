@@ -45,3 +45,10 @@ class CityEntity {
       countryFlag.hashCode ^
       state.hashCode;
 }
+
+List<CityEntity> cityEntitiesListFromCitiesResponses(List<CityApiResponse> listResponses) =>
+    List.from(
+      listResponses.map(
+        (response) => CityEntity.fromResponse(response),
+      ),
+    );
